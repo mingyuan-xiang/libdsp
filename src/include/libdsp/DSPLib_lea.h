@@ -1096,6 +1096,7 @@ extern const uint32_t MSP_LEA_INTERLEAVEODDODD[24];
 //
 //******************************************************************************
 extern volatile uint16_t msp_lea_ifg;
+extern volatile uint16_t msp_lea_cpu_flag;
 
 //******************************************************************************
 //

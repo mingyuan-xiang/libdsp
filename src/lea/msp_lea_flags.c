@@ -38,4 +38,6 @@ volatile uint16_t msp_lea_locked;
 
 volatile uint16_t msp_lea_ifg;
 
+volatile uint16_t msp_lea_cpu_flag;
+
 #endif
