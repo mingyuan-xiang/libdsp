@@ -47,7 +47,6 @@ void __attribute__ ((interrupt(LEA_VECTOR))) msp_lea_isr(void)
     uint16_t flags = LEAIFG;
     LEAIFG |= flags;
     msp_lea_ifg = flags;
-    msp_lea_cpu_flag = 0;
     __bic_SR_register_on_exit(LPM0_bits);
 }
 
